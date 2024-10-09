@@ -1,0 +1,37 @@
+<annotation>
+	<folder></folder>
+	<filename>IMG_0557_jpg.rf.6d06fa2f0725ff20abffbbaf429a4a0e.jpg</filename>
+	<path>IMG_0557_jpg.rf.6d06fa2f0725ff20abffbbaf429a4a0e.jpg</path>
+	<source>
+		<database>roboflow.com</database>
+	</source>
+	<size>
+		<width>640</width>
+		<height>480</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>regulatory</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>302</xmin>
+			<xmax>399</xmax>
+			<ymin>112</ymin>
+			<ymax>241</ymax>
+		</bndbox>
+		<polygon>
+			<x1>302.49999999999994</x1>
+			<y1>110.83333333333333</y1>
+			<x2>395.83333333333326</x2>
+			<y2>125.83333333333334</y2>
+			<x3>398.3333333333333</x3>
+			<y3>240</y3>
+			<x4>300.8333333333333</x4>
+			<y4>233.33333333333331</y4>
+		</polygon>
+	</object>
+</annotation>

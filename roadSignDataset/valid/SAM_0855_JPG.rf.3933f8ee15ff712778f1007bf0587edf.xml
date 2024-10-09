@@ -1,0 +1,37 @@
+<annotation>
+	<folder></folder>
+	<filename>SAM_0855_JPG.rf.3933f8ee15ff712778f1007bf0587edf.jpg</filename>
+	<path>SAM_0855_JPG.rf.3933f8ee15ff712778f1007bf0587edf.jpg</path>
+	<source>
+		<database>roboflow.com</database>
+	</source>
+	<size>
+		<width>4320</width>
+		<height>3240</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>regulatory</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>1626</xmin>
+			<xmax>2126</xmax>
+			<ymin>981</ymin>
+			<ymax>1791</ymax>
+		</bndbox>
+		<polygon>
+			<x1>1625</x1>
+			<y1>1015</y1>
+			<x2>2055</x2>
+			<y2>980</y2>
+			<x3>2125</x3>
+			<y3>1760</y3>
+			<x4>1655</x4>
+			<y4>1790.0000000000002</y4>
+		</polygon>
+	</object>
+</annotation>

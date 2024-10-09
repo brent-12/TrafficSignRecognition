@@ -1,0 +1,27 @@
+<annotation>
+	<folder></folder>
+	<filename>SAM_1682_JPG.rf.d6a57fc092a7a5fc4c7331d243b27cd2.jpg</filename>
+	<path>SAM_1682_JPG.rf.d6a57fc092a7a5fc4c7331d243b27cd2.jpg</path>
+	<source>
+		<database>roboflow.com</database>
+	</source>
+	<size>
+		<width>4320</width>
+		<height>3240</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>warning</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>1931</xmin>
+			<xmax>2310</xmax>
+			<ymin>1157</ymin>
+			<ymax>1547</ymax>
+		</bndbox>
+	</object>
+</annotation>

@@ -1,0 +1,27 @@
+<annotation>
+	<folder></folder>
+	<filename>SAM_1203_JPG.rf.09c1abe75aceffb26d9b4ea17447921f.jpg</filename>
+	<path>SAM_1203_JPG.rf.09c1abe75aceffb26d9b4ea17447921f.jpg</path>
+	<source>
+		<database>roboflow.com</database>
+	</source>
+	<size>
+		<width>4320</width>
+		<height>3240</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>stop</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>2091</xmin>
+			<xmax>3006</xmax>
+			<ymin>288</ymin>
+			<ymax>1220</ymax>
+		</bndbox>
+	</object>
+</annotation>
