@@ -1,6 +1,4 @@
-from __future__ import print_function
-import zipfile
-import os
+
 import torchvision.transforms as tfrms
 
 # data adjustments for training
