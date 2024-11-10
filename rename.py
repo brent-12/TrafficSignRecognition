@@ -15,7 +15,7 @@ def rename_files_in_folder(folder_path):
         index_str = f"{i:02d}"
         
         # Create the new filename
-        new_filename = f"00010_00000_000{index_str}"
+        new_filename = f"000020_00000_000{index_str}"
         
         # Get the file extension
         file_extension = os.path.splitext(filename)[1]
@@ -29,5 +29,5 @@ def rename_files_in_folder(folder_path):
         print(f"Renamed '{filename}' to '{new_filename + file_extension}'")
 
 # Usage example:
-folder_path = './10'
+folder_path = './train/20'
 rename_files_in_folder(folder_path)
