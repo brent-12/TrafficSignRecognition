@@ -28,10 +28,8 @@ def rename_files_in_folder(folder_path, folderNum):
 
 # Usage example:
 
-for i in range(14):
+for i in range(13):
     index = f"{i:02d}"
-    rename_files_in_folder(f"./test/{i}", index)
-for i in range(14):
-    index = f"{i:02d}"
-    rename_files_in_folder(f"./testCorrected/{i}", index)
+    rename_files_in_folder(f"./train/{i}", index)
+
 
