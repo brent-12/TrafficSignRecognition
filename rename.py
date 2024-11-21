@@ -1,6 +1,6 @@
 import os
 
-def rename_files_in_folder(folder_path):
+def rename_files_in_folder(folder_path, folderNum):
     # List all files in the folder
     files = [f for f in os.listdir(folder_path) if os.path.isfile(os.path.join(folder_path, f))]
     
@@ -13,7 +13,7 @@ def rename_files_in_folder(folder_path):
         index_str = f"{i:02d}"
         
         # Create the new filename
-        new_filename = f"000000_00000_000{index_str}"
+        new_filename = f"000{folderNum}_00000_000{index_str}"
         
         # Get the file extension
         file_extension = os.path.splitext(filename)[1]
@@ -27,5 +27,11 @@ def rename_files_in_folder(folder_path):
         print(f"Renamed '{filename}' to '{new_filename + file_extension}'")
 
 # Usage example:
-folder_path = './test'
-rename_files_in_folder(folder_path)
+
+for i in range(14):
+    index = f"{i:02d}"
+    rename_files_in_folder(f"./test/{i}", index)
+for i in range(14):
+    index = f"{i:02d}"
+    rename_files_in_folder(f"./testCorrected/{i}", index)
+
