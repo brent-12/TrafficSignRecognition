@@ -30,6 +30,6 @@ def rename_files_in_folder(folder_path, folderNum):
 
 for i in range(3):
     index = f"{i:02d}"
-    rename_files_in_folder(f"./test/{i}", index)
+    rename_files_in_folder(f"./testCorrected/{i}", index)
 
 
